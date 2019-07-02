@@ -1,0 +1,33 @@
+The following files are included:
+
+- functions.php
+- main.js
+
+When placed in the root of a WordPress theme, the following killer features should be available:
+
+-> When a user is added to WP, a valid image is randomly stored against that user.
+-> When a user logs in to WP, their user agent is captured so their last user agent is on record.
+-> The WP AJAX URL is made available in the source.
+-> Once the site loads, an AJAX call is made to retrieve a nice quote and alert the user.
+-> The quote is cached for 30 minutes to limit quote API requests.
+
+Unfortunately, every feature is broken (some in multiple ways).
+
+The previous dev has been launched into space for what he's done, and now it's up to you to make his code work correctly.
+
+ENVIRONMENT
+
+Make sure you're using the following for this exercise:
+
+- WordPress 5+
+- PHP 7.3
+
+SUBMISSION
+
+- Use whatever WP theme you like, so long as it contains the included files in the root.
+- If your chosen theme already has a functions file, just copy the contents of functions.php to the end of the file.
+- You MUST use git for this exercise (treat the theme as the repo).
+- Each bug fix MUST be in its own commit.
+- Your git repo MUST be accessible by us (use github or bitbucket if you don't host your own).
+
+Contact d+supportdev@hallam.co.uk if you have any questions.
